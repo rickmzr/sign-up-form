@@ -8,5 +8,44 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="./scripts.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="background-img">
+      <div id="logo-background">
+        <img id="logo" src="./assests/odin-lined.png" alt="Odin Project logo" />
+      </div>
+      <span id="image-credit"
+        >Photo by
+        <a
+          href="https://unsplash.com/fr/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Halie West</a
+        >
+        on
+        <a
+          href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </span>
+    </div>
+    <div id="page-content">
+      <h2>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up
+        <em>now</em> to get started.
+      </h2>
+      <h2>You <em>know</em> you want to.</h2>
+      <form action="post" id="contact-form">
+        <h2>Let's do this!</h2>
+        <label for="first-name">FIRST NAME</label><input type="text" />
+        <label for="last-name">LAST NAME</label><input type="text" />
+        <label for="user-email">EMAIL</label><input type="email" />
+        <label for="user-tel-number">PHONE NUMBER</label><input type="tel" />
+        <label for="user-pwd">PASSWORD</label><input type="pwd" />
+        <label for="pwd-confirm">CONFIRM PASSWORD</label><input type="pwd" />
+      </form>
+      <button form="contact-form" type="submit">Create Account</button>
+      <p id="existing-account">
+        Already have an account? <a id="login-link" href="">Log in</a>
+      </p>
+    </div>
+  </body>
 </html>
