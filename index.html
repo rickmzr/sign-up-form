@@ -38,12 +38,32 @@
       </div>
       <form action="post" id="contact-form">
         <h2>Let's do this!</h2>
-        <label for="first-name">FIRST NAME</label><input type="text" />
-        <label for="last-name">LAST NAME</label><input type="text" />
-        <label for="user-email">EMAIL</label><input type="email" />
-        <label for="user-tel-number">PHONE NUMBER</label><input type="tel" />
-        <label for="user-pwd">PASSWORD</label><input type="pwd" />
-        <label for="pwd-confirm">CONFIRM PASSWORD</label><input type="pwd" />
+        <div class="form-inputs">
+          <div class="contact-form-first-name">
+            <label for="first-name">FIRST NAME</label>
+            <input id="first-name" type="text" />
+          </div>
+          <div class="contact-form-last-name">
+            <label for="last-name">LAST NAME</label>
+            <input id="last-name" type="text" />
+          </div>
+          <div class="contact-form-email">
+            <label for="user-email">EMAIL</label>
+            <input id="user-email" type="email" />
+          </div>
+          <div class="contact-form-tel">
+            <label for="user-tel-number">PHONE NUMBER</label>
+            <input id="user-tel-number" type="tel" />
+          </div>
+          <div class="contact-form-pwd">
+            <label for="user-pwd">PASSWORD</label>
+            <input id="user-pwd" type="pwd" />
+          </div>
+          <div class="contact-form-confirm-pwd">
+            <label for="pwd-confirm">CONFIRM PASSWORD</label>
+            <input id="pwd-confirm" type="pwd" />
+          </div>
+        </div>
       </form>
       <div id="submit-section">
         <button form="contact-form" type="submit">Create Account</button>

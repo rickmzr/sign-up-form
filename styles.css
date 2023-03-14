@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Helvetica;
   font-size: 16px;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 #hero-section {
-  padding: 7rem 7rem 2rem 2rem;
+  padding: 7rem 9rem 2rem 2rem;
 }
 
 h2 {
@@ -70,7 +70,37 @@ h2 {
 
 form {
   background-color: #fff;
-  padding: 0rem 7rem 1.5rem 2rem;
+  padding: 0rem 9rem 1.5rem 2rem;
+
+  /*grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(15, 0.6rem);
+  column-gap: 3rem;*/
+}
+
+.form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input {
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  padding: 0.25rem;
+  font-size: 0.8rem;
+  margin: 0 3.25rem 0.8rem 0;
+}
+
+input:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 2px 1px 4px #c4c4c4;
+}
+
+label {
+  font-size: 0.55rem;
+  display: block;
+  z-index: 100;
+  overflow: visible;
 }
 
 #submit-section {
