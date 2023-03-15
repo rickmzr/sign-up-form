@@ -88,21 +88,37 @@ input {
   padding: 0.25rem;
   font-size: 0.8rem;
   margin: 0 3.25rem 0.8rem 0;
+  background-color: rgba(252, 252, 252, 20%);
 }
 
 input:focus {
   outline: none;
   border-color: blue;
+  background-color: #fff;
   box-shadow: 2px 1px 4px #c4c4c4;
 }
 
 label {
   font-size: 0.55rem;
   display: block;
-  z-index: 100;
-  overflow: visible;
+}
+
+.pwd-error-msg {
+  color: rgb(228, 19, 19);
+  font-size: 0.55rem;
+  top: 2.3rem;
+  display: block;
+  position: absolute;
+}
+
+.contact-form-pwd {
+  position: relative;
 }
 
 #submit-section {
   padding: 1.5rem 7rem 7rem 2rem;
+}
+
+.error {
+  border-color: rgb(228, 19, 19);
 }
